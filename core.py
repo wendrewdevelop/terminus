@@ -5,7 +5,9 @@ from funcoes.discoverynet import NetworkScanner
 from funcoes.temperatura import timetemperatura
 from funcoes.calculadora import calc
 from funcoes.dolar import conversaodolar
+from funcoes.cep import cepsearch
 from configuracoes.configs import color, limpar
+
 
 import time
 
@@ -20,6 +22,7 @@ items_menu = {
     "5": "Temperatura",
     "6": "Calculadora",
     "7": "Ver cotação do dolar",
+    "8": "Busca de CEP",
 }
 
 tamanho = len(items_menu)
@@ -94,10 +97,10 @@ while loop == 1:
         limpar()
         conversaodolar()
 
-    #----------------Wifi por perto
+    #----------------Busca de CEP
     elif choice == '8':
         limpar()
-        wifirange()
+        cepsearch()
 
     #----------------Sair do sistema
     elif choice == 's' or choice == 'S' or choice == 'sair' or choice == 'SAIR' or choice == 'Sair':
