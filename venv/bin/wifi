@@ -1,4 +1,4 @@
-#!/home/wendrew/Documentos/projetos/terminus/venv/bin/python3
+#!/home/wendrew/Documentos/Projetos/terminus/venv/bin/python3
 from __future__ import print_function
 import argparse
 import sys

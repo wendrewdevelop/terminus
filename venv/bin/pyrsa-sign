@@ -1,4 +1,4 @@
-#!/home/wendrew/Documentos/projetos/terminus/venv/bin/python3
+#!/home/wendrew/Documentos/Projetos/terminus/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

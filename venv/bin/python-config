@@ -1,4 +1,4 @@
-#!/home/wendrew/Documentos/projetos/terminus/venv/bin/python
+#!/home/wendrew/Documentos/Projetos/terminus/venv/bin/python
 
 import sys
 import getopt
