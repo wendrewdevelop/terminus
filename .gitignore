@@ -1,2 +1,6 @@
 venv
-requirements.txt
+.vscode
+.idea
+__pycache__
+configuracoes/__pycache__
+funcoes/__pycache__
